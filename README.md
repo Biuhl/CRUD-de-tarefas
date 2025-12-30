@@ -26,5 +26,32 @@ Versão com framework (React, por exemplo)
 
 👤 Autor
 
-Projeto desenvolvido por Biuhl
+Projeto desenvolvido por Gabriel da Silva Leite.
 Estudante de Análise e Desenvolvimento de Sistemas (ADS)
+
+## 📌 Funcionalidades
+
+- Adicionar novas tarefas
+- Listar tarefas cadastradas
+- Editar tarefas existentes
+- Excluir tarefas
+- Interface simples e responsiva
+- Manipulação dinâmica dos dados no navegador
+
+## 🛠️ Tecnologias utilizadas
+
+- **HTML5** – Estrutura da aplicação
+- **CSS3** – Estilização da interface
+- **JavaScript (Vanilla JS)** – Lógica do CRUD e manipulação do DOM
+- **Git & GitHub** – Controle de versão
+
+## 📂 Estrutura do projeto
+
+CRUD/
+│── index.html
+│
+├── css/
+│ └── style.css
+│
+└── js/
+└── script.js
