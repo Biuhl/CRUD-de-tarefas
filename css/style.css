@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+.container{
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Área do formulário */
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input */
+.task-form input {
+  flex: 1;
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Botão */
+.task-form button {
+  padding: 10px 15px;
+
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Hover do botão */
+.task-form button:hover {
+  background-color: #43a047;
+}
+
+/* Lista */
+.task-list ul {
+  list-style: none;
+}
+
+/* Item da lista */
+.task-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* Hover do item */
+.task-list li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Tarefa concluída */
+.task-list li.completed {
+  text-decoration: line-through;
+  color: #888;
+  background-color: #e8e8e8;
+}
